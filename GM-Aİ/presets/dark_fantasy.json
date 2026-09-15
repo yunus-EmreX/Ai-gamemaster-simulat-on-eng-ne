@@ -1,0 +1,28 @@
+{
+  "id": "dark_fantasy",
+  "title": "Kül Krallığı ve Kan Yemini (Karanlık Fantezi)",
+  "character": {
+    "name": "Morvath",
+    "age": "29",
+    "role": "Engizisyon Kaçağı & Kan Büyücüsü",
+    "skills": ["Kanla Mühürleme", "Gümüş Hançer Ustalığı", "Kadim Diller Çevirisi", "Zehir ve Panzehir Hazırlama"],
+    "flaws": ["Her kan büyüsü kendi canını ve etini yakar", "Engizisyon peşindedir ve başında 500 altın ödül vardır", "Gümüşe dokunamaz (derisinde yanık izi bırakır)"],
+    "backstory": "Kraliyet Arşivinde katipken yasaklanmış Kırmızı Tomarları okudu. Engizisyon ailesini idam edince kaçarak yer altına saklandı.",
+    "goal": "Engizisyon Başpiskoposunun koruduğu Kan Taşını ele geçirip laneti kırmak.",
+    "inventory": ["Rünlü kavisli gümüş kaplama hançer", "3 adet boş cam tüp", "Bir tutam kurutulmuş kurtboğan otu", "Deri ciltli kara not defteri", "Kömür parçası"]
+  },
+  "universe": {
+    "name": "Kül Krallığı (Aethelgard)",
+    "history": "Bin yıl önceki Göksel Kırılma sonrası güneş karardı ve gökyüzünden sürekli gri kül yağmaya başladı. Feodal lordlar ve fanatik Engizisyon halkı demir yumrukla yönetiyor.",
+    "rules": "1. Büyü bedelsiz değildir; her büyü yapan kişinin kendi kanından veya canından feragat etmesini gerektirir.\n2. Büyü aşırı kullanılırsa 'Kızıl Delilik' başlar ve kişi aklını yitirir.\n3. Ölüler diriltilemez; diriltilmeye çalışılan şey sadece etobur bir gölgedir.\n4. Kutsal su ve kutsanmış demir doğaüstü varlıklara ağır hasar verir.",
+    "social": "Kutsal Engizisyon mutlak güç sahibidir. Büyücülerin cezası meydanda diri diri yakılmaktır. Halk batıl inançlı ve yabancılara karşı aşırı düşmancıldır.",
+    "damage_reality": "Büyücüler bile fiziksel olarak sıradan bir insandır; bir kılıç saplaması veya gürz darbesi zırhsız birini anında öldürür.",
+    "dogmas": "Kanın bedeli ödenmeden hiçbir rün tetiklenemez. Ölüler geri dönemez. Tanrılar dualara cevap vermez."
+  },
+  "mode_data": {
+    "mode": "fantasy",
+    "strictness": "challenging",
+    "model": "gemini-3.6-flash",
+    "prologue_hook": "Çürüyen bir kilisenin mahzenindesin. Dışarıda Engizisyon tazılarının ulumaları ve meşalelerin ışığı taş duvarlardaki çatlaklardan sızıyor. Kapıdaki tahta sürgü sarsılmaya başladı..."
+  }
+}
