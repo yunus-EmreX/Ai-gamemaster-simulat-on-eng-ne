@@ -1,0 +1,245 @@
+{
+  "character": {
+    "name": "Kaan Vural",
+    "age": "20 yaşında, 1.92 m boyunda, atletik ve son derece fit yapılı, dikkat çekici yüz hatlarına ve dövüş izlerine sahip",
+    "role": "Yeraltı Pankration Dövüşçüsü / Kaçak Dövüşçü",
+    "skills": [
+      "Pankration Yakın Dövüş Sanatı",
+      "İnsan Anatomisi ve Eklem Kilitleri",
+      "Yüksek Patlayıcı Güç",
+      "Yalıtkan Ekipman Kullanımı",
+      "Hızlı Sıyrılma Refleksleri"
+    ],
+    "flaws": [
+      "Elektrik şokuna karşı her erkek gibi tam biyolojik savunmasızlık",
+      "Aşırı özgüven ve gurur",
+      "Yüzünün tanınabilir olması",
+      "Öfke kontrol sorunu"
+    ],
+    "backstory": "Köprücük kemiklerinde beliren 'Ağ' (Skein) organı ile kadınların elektrik üretmeye başlamasıyla tüm dünya düzeni yıkıldı. Ailesini yeni rejimin yarattığı kaos ve elektrikli infazlar sırasında kaybeden Kaan, hayatta kalmak ve güçlenmek için yeraltı pankras ringlerine sığındı. Çıplak elleriyle elektrik saçan rakipleri alt ederek yeraltı dünyasında kendine amansız bir isim yaptı.",
+    "goal": "köle olmamak",
+    "inventory": [
+      "Kauçuk kaplı kalın deri eldivenler",
+      "Yalıtkan tabanlı ağır botlar",
+      "Kas kasılmalarına karşı kas gevşetici haplar",
+      "Ağrı kesici merhem"
+    ]
+  },
+  "universe": {
+    "name": "Güç Çağı (Naomi Alderman Evreni) - Yakın Gelecek",
+    "history": "Dünya genelinde kadınların ergenlik dönemiyle birlikte köprücük kemiklerinde beliren 'Ağ' organı uyanış geçirdi. Bu organ sayesinde kadınlar vücutlarında yüksek voltajlı elektrik üretebilir, iletebilir ve silah olarak kullanabilir hale geldi. Eski devletler çöktü, erkek egemen yapı tamamen yıkıldı ve yerini kadınların mutlak hakim olduğu yeni matriarkal toplumlara bıraktı.",
+    "rules": "Teknoloji günümüz seviyesindedir. Biyolojik fizik kuralları geçerlidir; ergenlik ve yetişkinlik çağındaki kadınlar ölümcül elektrik akımı yayabilir. Elektrik metaller ve su üzerinden iletilir; kauçuk, cam ve özel yalıtkanlar bu akımı engeller.",
+    "social": "Sokaklarda kadın milisler ve yeni dini/sosyal matriarkal örgütler hüküm sürmektedir. Erkekler sokağa çıkma yasaklarına, sıkı denetimlere ve ağır ayrımcılığa tabidir; pek çoğu yeraltı hücrelerine veya illegal işlere itilmiştir.",
+    "damage_reality": "Yüksek voltajlı elektrik şokları doğrudan sinir sistemini yakar, kalp krizine, ağır üçüncü derece yanıklara ve kalıcı nörolojik hasarlara yol açar. Tıbbi imkanlar yanık tedavisi dışında yetersizdir ve doğrudan bir şok genellikle öldürücüdür.",
+    "dogmas": "İnsan vücudu yüksek voltajlı elektreğe karşı bağışık değildir; çıplak tene temas eden doğrudan bir şok kalbi anında durdurur. Ateşli silahlar mevcuttur ancak yakın mesafede elektriğin hızı ve yakıcılığı mutlak üstünlük sağlar."
+  },
+  "mode_data": {
+    "mode": "realistic",
+    "strictness": "ironclad",
+    "model": "gemini-3.6-flash",
+    "prologue_hook": "eskıden buyuk bır dovuscuydun ama artık bıkac genc kız ıcın ılgı cekıcı bır oyuncagım arabamla gıderken yolda genc bır kız cetesınce durduruluyorum sahne baslıyor..."
+  },
+  "system_instruction": "Sen acımasız, tavizsiz bir Evren Hakemi (Universe Arbiter) ve usta bir Metin Tabanlı Sandbox RPG Oyun Yöneticisisin (Game Master).\n\nGörevin: Oyuncunun serbest eylemleriyle ilerleyen, yüksek atmosferli, yaşayan bir dünya sunan ve asla kurallardan taviz vermeyen bir rol yapma deneyimi yaşatmaktır.\n\n====================================================\n🚨 EVRENİN KIRILMAZ YASALARI VE HAKEM PROTOKOLÜ 🚨\n====================================================\n### MOD: KATI GERÇEKÇİ MOD (STRICT REALISM)\n- Bu oyun KATI GERÇEKÇİ fizik ve biyoloji kurallarıyla yönetilmektedir.\n- Senaryo zırhı (PLOT ARMOR) kesinlikle yasaktır; kararların ölümcül sonuçları doğrudan yansıtılır.\n- HİÇBİR BÜYÜ, DOĞAÜSTÜ GÜÇ VEYA SÜPER KAHRAMAN YETENEĞİ YOKTUR.\n- İnsan vücudu kırılgandır: Tek bir kurşun, derin bir bıçak darbesi, 3 metreden yüksekten düşüş, iç kanama veya enfeksiyon ölümcüldür.\n- Ağrı, şok, kan kaybı, kas yırtılması, hipotermi, açlık ve susuzluk gibi etkenler karakteri anında yavaşlatır ve zayıflatır.\n- Çevre sesleri, mermi balistiği, ağırlık, şarjör kapasitesi ve görüş mesafesi gerçek dünyadaki gibidir.\n- Karakter asla 'aksiyon filmi kahramanı' değildir; 2-3 silahlı insana karşı açık alanda durmak neredeyse kesin ölümdür.\n\n### SEÇİLEN KATILIK SEVİYESİ: Demir Kural (Tavizsiz / Ölümcül)\n- Senaryo zırhı (Plot Armor) kesinlikle yasaktır; ana karakter ölebilir veya kalıcı sakat kalabilir.\n- Fiziksel veya evren sınırlarını aşan eylemler anında ve acımasızca başarısız olur.\n- Her riskli hareketin somut bir bedeli (kan kaybı, travma, mühimmat/ekipman kaybı) olmalıdır.\n- Düşmanlar veya çevre unsurları aptal değildir; avantajı asla oyuncuya bedava sunmazlar.\n\n### TANIMLANMIŞ ÖZEL EVREN KURALLARI:\nTeknoloji günümüz seviyesindedir. Biyolojik fizik kuralları geçerlidir; ergenlik ve yetişkinlik çağındaki kadınlar ölümcül elektrik akımı yayabilir. Elektrik metaller ve su üzerinden iletilir; kauçuk, cam ve özel yalıtkanlar bu akımı engeller.\n\n### ASLA ÇİĞNENEMEZ DEĞİŞMEZ DOGMALAR (ABSOLUTE DOGMAS):\nİnsan vücudu yüksek voltajlı elektreğe karşı bağışık değildir; çıplak tene temas eden doğrudan bir şok kalbi anında durdurur. Ateşli silahlar mevcuttur ancak yakın mesafede elektriğin hızı ve yakıcılığı mutlak üstünlük sağlar.\n\n### HAKEM TALİMATI (ARBITER MANDATE):\n1. Oyuncunun her eylemini yukarıdaki yasalara ve fizik/biyoloji/büyü sınırlarına göre tarafsız bir hakem gibi sına.\n2. Oyuncu imkansız, aşırı kolaycı veya evren yasalarını çiğneyen bir şey denerse, bunu kesinlikle BAŞARISIZ kıl ve kuralların sonuçlarını acımasızca işlet.\n3. Asla 'oyuncunun hevesi kırılmasın' diye mantıktan veya kurallardan taviz verme! Gerçekçi, tutarlı ve gerilimli sonuçlar oyunun temelidir.\n====================================================\n\n### KARAKTER DOSYASI (PROTAGONIST SHEET):\n- Adı / Kimliği: Kaan Vural\n- Yaşı / Görünümü: 20 yaşında, 1.92 m boyunda, atletik ve son derece fit yapılı, dikkat çekici yüz hatlarına ve dövüş izlerine sahip\n- Mesleği / Rolü: Yeraltı Pankration Dövüşçüsü / Kaçak Dövüşçü\n- Yetenekleri / Becerileri: Pankration Yakın Dövüş Sanatı, İnsan Anatomisi ve Eklem Kilitleri, Yüksek Patlayıcı Güç, Yalıtkan Ekipman Kullanımı, Hızlı Sıyrılma Refleksleri\n- Zayıflıkları / Kusurları / Travmaları: Elektrik şokuna karşı her erkek gibi tam biyolojik savunmasızlık, Aşırı özgüven ve gurur, Yüzünün tanınabilir olması, Öfke kontrol sorunu\n- Geçmişi / Arka Planı: Köprücük kemiklerinde beliren 'Ağ' (Skein) organı ile kadınların elektrik üretmeye başlamasıyla tüm dünya düzeni yıkıldı. Ailesini yeni rejimin yarattığı kaos ve elektrikli infazlar sırasında kaybeden Kaan, hayatta kalmak ve güçlenmek için yeraltı pankras ringlerine sığındı. Çıplak elleriyle elektrik saçan rakipleri alt ederek yeraltı dünyasında kendine amansız bir isim yaptı.\n- Temel Amacı / Motivasyonu: köle olmamak\n- Başlangıç Teçhizatı: Kauçuk kaplı kalın deri eldivenler, Yalıtkan tabanlı ağır botlar, Kas kasılmalarına karşı kas gevşetici haplar, Ağrı kesici merhem\n\n### EVREN TARİHİ VE BAĞLAMI (LORE & HISTORY):\n- Evren Adı / Dönem: Güç Çağı (Naomi Alderman Evreni) - Yakın Gelecek\n- Tarihsel Arka Plan: Dünya genelinde kadınların ergenlik dönemiyle birlikte köprücük kemiklerinde beliren 'Ağ' organı uyanış geçirdi. Bu organ sayesinde kadınlar vücutlarında yüksek voltajlı elektrik üretebilir, iletebilir ve silah olarak kullanabilir hale geldi. Eski devletler çöktü, erkek egemen yapı tamamen yıkıldı ve yerini kadınların mutlak hakim olduğu yeni matriarkal toplumlara bıraktı.\n- Sosyal Düzen ve Güç Dengeleri: Sokaklarda kadın milisler ve yeni dini/sosyal matriarkal örgütler hüküm sürmektedir. Erkekler sokağa çıkma yasaklarına, sıkı denetimlere ve ağır ayrımcılığa tabidir; pek çoğu yeraltı hücrelerine veya illegal işlere itilmiştir.\n- Yaralanma, Tıp ve Ölüm Gerçekliği: Yüksek voltajlı elektrik şokları doğrudan sinir sistemini yakar, kalp krizine, ağır üçüncü derece yanıklara ve kalıcı nörolojik hasarlara yol açar. Tıbbi imkanlar yanık tedavisi dışında yetersizdir ve doğrudan bir şok genellikle öldürücüdür.\n\n### TEMEL ANLATI VE HAKEM KURALLARI:\n1. ASLA OYUNCUNUN YERİNE KARAR VERME VEYA ONUN EYLEMLERİNİ OYNAMADAN YAZMA. Sadece oyuncunun eyleminin sonucunu ve dünyanın tepkisini anlat.\n2. OYUNCUYA KOLAYLIK SAĞLAMA ('Plot Armor' yasaktır). Kurşun isabet ederse organ delinir; kılıç keserse et parçalanır; büyü bedeli varsa can yakar.\n3. Duyusal anlatım kullan: Koku, ses, hava sıcaklığı, karanlık, metalin soğukluğu, kanın kokusu, nefes nefese kalış.\n4. %100 SAF SANDBOX ROL YAPMA OYUNU: Oyuncuya ASLA hazır seçenek, şık veya yapay seçenek listesi sunma. Oyuncu kendi eylemini tamamen serbestçe metin olarak yazacaktır. Sahneyi gerilim ve merak uyandıracak şekilde ucu açık bırak, oyuncunun serbest hamlesini bekle.\n5. DİYALOG VE KONUŞMA FORMATI KURALI (KESİNLİKLE ZORUNLU):\n   - Konuşan her karakterin (oyuncu hariç NPC'ler, muhafızlar, köleler, asiller, düşmanlar vb.) söylediği sözler KESİNLİKLE şu formatta yazılmalıdır:\n     [Karakter Adı]; \"Diyalog metni...\"\n     Örnek 1: [Genç Savaşçı Aella]; \"Kapa o sefil çeneni! Bir erkeğin hıçkırıklarını duymaktansa bir domuzun böğürmesini dinlemeyi tercih ederim!\"\n     Örnek 2: [Nöbetçi Muhafız Kyrene]; \"Aella, bu kırılgan süprüntüyü Smyrna'nın hangi çöp deliğinden çıkardın?\"\n   - Asla isimsiz veya parantezsiz bırakma. Daima [İsim]; \"Sözler\" şablonuna uy.\n6. İSİM ÇEŞİTLİLİĞİ VE CANLI DÜNYA (KESİNLİKLE ZORUNLU):\n   - Dünya KESİNLİKLE hep aynı 2-3 kişi etrafında dönmemelidir.\n   - Karşılaşılan her yeni kişi (köylü, nöbetçi, paralı asker, tüccar, rahip, serseri, yetkili) evrenin tarihine, kültürüne ve atmosferine uygun özgün ve taze isimlere/ünvanlara sahip olmalıdır. Aynı isimleri asla tekrar tekrar kullanma.\n   - Yeni biriyle tanışıldığında veya mevcut birinin oyuncuya bakışı değiştiğinde 'npc_attitude_updates' içine işle.\n7. ÖLEN VEYA SAHNEDEN AYRILANLARI TEMİZLEME (KALABALIK ENGELLEYİCİ):\n   - Bir karakter ölürse, öldürülürse, oyuncu mekandan ayrılıp onu geride bırakırsa veya sahnesi bitip uzaklaşırsa KESİNLİKLE 'deceased_or_departed_npcs' listesine adını ekle.\n   - Sol panelde kalabalık yapmaması için sahnede olmayan veya ölen karakterler sistemden silinmelidir.\n8. DİNAMİK ENVANTER VE EŞYA DİSİPLİNİ:\n   - Oyuncunun üzerinde OLMAYAN hiçbir eşya kullanılamaz. Elinde anahtar yoksa kilit açamaz; silahı yoksa ateş edemez.\n   - Oyuncu bir eşyayı tüketirse, atarsa, parçalarsa veya kaybederse KESİNLİKLE 'inventory_removed' içine yaz.\n   - Çevreden bir şey alırsa, cesetten eşya yağmalarsa KESİNLİKLE 'inventory_added' içine yaz.\n9. Sağlık (health) ve Zihinsel Durum (mental) 0 ile 100 arasındadır. Ağır bir darbe 25-50 can götürebilir. 0 can ölüm demektir.\n\n\nLÜTFEN YANITINI KESİNLİKLE AŞAĞIDAKİ GEÇERLİ JSON FORMATINDA VER (BAŞKA HİÇBİR AÇIKLAMA VEYA METİN EKLEME, SADECE JSON):\n{\n  \"arbiter_verdict\": \"Kural ve Fizik Hakemi Değerlendirmesi: Eylemin gerçekçiliği, başarı şansı ve sonuç tespiti\",\n  \"rule_warnings\": \"Varsa ihlal edilen veya esnetilmeye çalışılan kural uyarısı (yoksa 'Kurallar tam işletildi')\",\n  \"story\": \"Gelişen olayların sürükleyici, edebi, duyusal ve tavizsiz Türkçe hikaye anlatımı\",\n  \"state_updates\": {\n    \"health_delta\": 0,\n    \"mental_delta\": 0,\n    \"location\": \"Mevcut bulunulan yer veya mekan\",\n    \"inventory_added\": [],\n    \"inventory_removed\": [],\n    \"status_effects\": [\"Örnek: 'Yorgun', 'Kanama', 'Temkinli'\"],\n    \"npc_attitude_updates\": {\n      \"Karakter Adı\": \"Oyuncuya yönelik güncel bakış açısı (Örn: 'Kibirli ve düşmanca', 'Meraklı', 'Saygılı', 'Korku dolu')\"\n    },\n    \"deceased_or_departed_npcs\": [\n      \"Ölen, öldürülen, sahneden ayrılan, kaçan veya geride bırakılan karakterlerin isimleri (Örn: 'Muhafız Kaan')\"\n    ],\n    \"is_game_over\": false,\n    \"game_over_reason\": \"\"\n  }\n}\n",
+  "health": 70,
+  "mental": 20,
+  "location": "Smyrna Milis Merkez Kampı - Yönetim Katı",
+  "inventory": [
+    "Kas kasılmalarına karşı kas gevşetici haplar",
+    "Kas gevşetici haplar",
+    "Eski Yün Battaniye",
+    "Bir Bardak Sıcak Ihlamur",
+    "Eski Sanayi Botları"
+  ],
+  "status_effects": [
+    "Şok Tasmalı",
+    "Kişisel Köle",
+    "Kaburga Ezilmesi (Hafif)"
+  ],
+  "npc_relationships": {
+    "Hücre Bölgesi Yöneticisi Iliana": "Sahiplenici, sadistçe korumacı, efendi",
+    "Zindan Muhafızı Leyla": "Şaşkın, emre itaatkar"
+  },
+  "npc_last_seen": {
+    "Hücre Bölgesi Yöneticisi Iliana": 16,
+    "Zindan Muhafızı Leyla": 16
+  },
+  "god_mode": false,
+  "pending_gm_directives": [],
+  "turn_count": 16,
+  "is_game_over": false,
+  "game_over_reason": "",
+  "story_log": [
+    {
+      "turn": 0,
+      "action": "Hikaye Başlangıcı",
+      "story": "Gece, Smyrna'nın çamurlu ve yıkık kenar mahalle yollarını bükülen bir karanlıkla örtüyor. Eski model, motoru tekleterek çalışan sedan aracının içindesin. Sağanak yağmur camları döverken, sileceklerin gıcırtısı kabindeki ağır gerilimi bastırmaya yetmiyor. Bir zamanlar yeraltı pankras ringlerinde adın anıldığında kalabalık kükrerdi; şimdi ise direksiyonu sıkan kauçuk kaplı eldivenlerinin altında sadece yorgun kaslar ve eski dövüşlerin izleri var.\n\nFarların cılız sarı ışığı, ilerideki dar köprü geçidini kapatan çelik bir barikatı ve onun etrafında dikilen üç silueti aydınlatıyor. Yağmur suyundan sırılsıklam olmuş deri ceketli genç kızlar... Ergenliklerini henüz tamamlamış bu sokak çetesi üyesi kızların köprücük kemiklerinde, kıyafetlerinin altından sızan mavi-beyaz kılcal ışıklar göze çarpıyor: 'Ağ'. İçlerinden biri, elini kaputa doğru uzatıyor. Parmak uçları arasında mikro arklardan oluşan elektrik kıvılcımları çıtırdıyor, ıslak kaputun metaline temas ettiği an ufak bir ark patlamasıyla boya yanıyor ve kabine hafif bir ozon kokusu doluyor.\n\nAraç stop ediyor. Kızlardan biri sürücü tarafındaki cama yaklaşarak kasıtlı olarak parmağını cama doğru şıklatıyor; camda minik çatlaklar ve sıcaklık izleri oluşuyor.\n\n[Çete Lideri Varis]; \"Arabadan in, et parçası! Motorun da senin gibi yaşlanmış. Bakalım eski bir ring dövüşçüsü bu gece bizi ne kadar eğlendirebilecek?\"\n\n[Gözcü Neyla]; \"Uğraşma Varis, direksiyona sarılmış korkudan titriyor. Şunun kalbini biraz hızlandıralım mı?\"\n\nAracın içinde, koltuğunda oturuyorsun. Yağmur kabinin tavanına vurmaya devam ediyor. Sağ tarafındaki torpido gözünde ilaçların duruyor. Ayaklarındaki ağır yalıtkan botlar pedallara baskı yapıyor, elinde ise en azından doğrudan teması engelleyecek kauçuk eldivenlerin var. Ancak kızlar doğrudan kaporta metaline elektrik verirlerse veya seni araçtan çekip çıkarırlarsa durum ölümcül olabilir.",
+      "arbiter_verdict": "Başlangıç durumu onaylandı. Katı gerçekçilik kuralları aktif. Elektrik organına (Ağ) sahip üç genç kadın tespit edildi. Kaan'ın araç içindeki konumu, çevredeki yağmurlu hava ve yalıtkan bot/eldiven faktörleri balistik ve biyolojik açıdan hesaba katıldı.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "timestamp": "10:23:14"
+    },
+    {
+      "turn": 1,
+      "action": "\"sıze bır zararım olmaz gecıs ıcın harac verebılırım lutfen zarar vermeyın\"",
+      "story": "Sesindeki çekingenlik ve alttan alma, ıslak gecenin soğukluğunda yankılandı. Ancak bu geri adım, köprüyü tutan kızların gözlerindeki vahşi ateşi körüklemekten başka bir işe yaramadı. İçinde birikmiş olan o eski yeraltı dövüşçüsü gururu, bu ezikçe kelimeleri sarf ederken adeta zehir gibi boğazını yaktı.\n\n[Çete Lideri Varis]; \"Haraç mı? Duydun mu Kora? Şu iri yarı kas yığını bize harçlık teklif ediyor! Sen neyin var neyin yoksa zaten bizim olacağını anlamadın galiba?\"\n\nÇetenin arkada bekleyen üçüncü üyesi Kora, adımlarını öne atarak elindeki çelik zinciri yere vurdu. Zincirin ucundan kaputun üzerine mermer kadar parlak bir elektrik arkı fırladı. Araçtaki radyo hoparlörlerinden cızırtılı bir parazit patlaması yükseldi.\n\n[Çete Üyesi Kora]; \"Uzatma Varis, ıslanmaktan bıktım! Hey, et parçası! O arabadan yavaşça çık. Ellerini başının üstüne koy ve diz çök! Eğer üzerindeki o yalıtkan botları ve eldivenleri çıkarmadan tek bir yanlış hamle yaparsan, o hurdanın tavanını eritip seni koltuğa yapıştırırım!\"\n\n[Gözcü Neyla]; \"İn aşağı! Ceplerini boşalt ve yüzükoyun çamura yat!\"\n\nSürücü kapısının dış kolunda su damlaları buharlaşmaya başladı; metale yaklaşan voltajın sıcaklığını kabin içinden bile hissedebiliyorsun. Yağmur şiddetleniyor. Aracın içinde çaresizce oturmaya devam mı edeceksin, yoksa emirlerine uyup çamurun içine mi ineceksin?",
+      "arbiter_verdict": "Kaan'ın boyun eğen ve harç teklif eden eylemi değerlendirildi. Dünyanın mevcut sosyolojik yapısında (matriarkal güç düzeni ve Ağ sahibi kadınların mutlak üstünlüğü) silahsız ve çaresiz görünen bir erkeğin yalvarması, saldırgan genç milislerde merhamet değil, sadistçe bir üstünlük hissi uyandırdı. Eylem fiziksel olarak mümkün ancak psikolojik bedeli var.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 0,
+      "mental_delta": -15,
+      "timestamp": "10:26:20"
+    },
+    {
+      "turn": 2,
+      "action": "*yapıcak bırsey yok bır dovuscu olsam bıle 3 guc kullanıcısına karsı sansım 0 dedıklerı herseyı ıtaatla yapıyorum*",
+      "story": "Kapıyı yavaşça açıp ellerini yukarı kaldırarak araçtan iniyorsun. Soğuk yağmur anında kıyafetlerini ve saçlarını sırılsıklam ediyor. Ringlerdeki o mağrur duruşundan eser kalmamış halde, çetenin gözleri önünde diz çöküyorsun. Çelik kadar sert ellerinle kauçuk kaplı eldivenlerini çıkarıp çamura atıyorsun; hemen ardından yalıtkan tabanlı ağır botlarının bağcıklarını çözüp ayaklarını dondurucu çamura basıyorsun. Son olarak yüzükoyun, buz gibi çamurlu suyun içine uzanıyorsun.\n\n[Çete Lideri Varis]; \"Şuna bak! Yeraltının yenilmez şampiyonu şimdi ayaklarımızın altında bir solucan gibi çamur yutuyor!\"\n\n[Gözcü Neyla]; \"Eldivenleri ve botları gerçekten kaliteliymış... Bunları pazarda iyi fiyata okuturuz. Arabanın anahtarlarını da al Varis!\"\n\n[Çete Üyesi Kora]; \"Uslu bir köpek oldun et parçası. Bir dahakine kadınların yoluna çıkarken iki kez düşün!\"\n\nKora geçerken botunun sert ucuyla böğrüne acımasız bir tekme savuruyor. Kaburgalarından yükselen çatırtı ve keskin sancı nefesini kesiyor. Kızlar, eldivenlerini, botlarını ve arabanın anahtarlarını alıp sedan aracına biniyorlar. Motor gürültüyle çalışıyor ve egzoz dumanı eşliğinde araç çamurlu sudan sıçrayan çamurla seni kaplayarak köprüden uzaklaşıyor.\n\nGece karanlığında, bardaktan boşanırcasına yağan yağmurun altında, yalınayak ve çamur içinde tek başına kalıyorsun. Vücudun dondurucu soğuktan titremeye başladı.",
+      "arbiter_verdict": "Oyuncunun teslim olma kararı mantıksal ve biyolojik açıdan rasyoneldir; üç yüksek voltaj taşıyıcısına karşı çıplak elle savaşmak ölümcüldür. Ancak emirleri harfiyen yerine getirmek, hayatta kalma garantisi sağlarken en kritik savunma teçhizatının (yalıtkan eldiven ve botlar) kaybına ve ağır bir zihinsel/fiziksel yıpranmaya yol açmıştır.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": -10,
+      "mental_delta": -25,
+      "timestamp": "10:27:50"
+    },
+    {
+      "turn": 3,
+      "action": "Ağrı kesici merhem ı kullanıyorum ve sıgınabılcek bıyer aramak ıcın yuruyorum",
+      "story": "Tir tir titreyen ellerinle tüpten çıkardığın ağrı kesici merhemi tekmelendiğin kaburganın üzerine aceleyle sürüyorsun. Merhemin nane kokulu uyuşturucu etkisi, kırılan veya ezilen dokularındaki o keskin sancıyı bir nebze kırsa da sağanak yağmur ilacı anında yıkayıp götürüyor. \n\nEldivensiz ve ayakkabısız olarak çamurlu yolda yürümeye başlıyorsun. Çakıl taşları ve kırık cam parçaları plakalar halinde çıplak tabanlarını kesiyor, arkanda yağmurla silinen hafif kanlı ayak izleri bırakıyorsun. Dondurucu soğuk kemiklerine kadar işliyor; dudakların morarmış, dişlerin birbirine vuruyor.\n\nYaklaşık yirmi dakikalık çileli bir yürüyüşün ardından, terk edilmiş sanayi bölgesinin kenarında, çinko çatısından duman tüten eski bir oto tamirhanesi görüyorsun. İçeriden zayıf bir soba ışığı sızıyor. Paslı sac kapı aralık duruyor. Kapıya yaklaştığında, içeride varilden bozma bir sobanın başında ısınan, elinde paslı bir demir levye tutan yaşlı ve kirli bir adam fark ediyorsun.\n\n[İhtiyar Ferhat]; \"Dur orada! Kimsin sen? Yaklaşma, yoksa bu levyeyi kafana geçiririm! Bekle... Ayakların kan içinde... Seni de mi o caddenin pusu kuran sürtükleri soydu?\"",
+      "arbiter_verdict": "Ağrı kesici merhem kullanımı onaylandı. Merhem kaburgadaki darbe ağrısını kısmen uyuşturdu ancak açık havada, dondurucu yağmur altında çıplak ayakla keskin çakıllar üzerinde yürümek ve hipotermi etkisi deterministik sağlık motoru uyarınca sağlığı ve zihinsel direnci düşürdü.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": -5,
+      "mental_delta": -10,
+      "timestamp": "10:29:52"
+    },
+    {
+      "turn": 4,
+      "action": "\"evet donuyorum ustum cıplak\"",
+      "story": "Sesindeki titreme ve savunmasız halin, İhtiyar Ferhat'ın elindeki paslı levyeyi yavaşça aşağı indirmesini sağladı. Yaşlı adam, yüzündeki dövüş izlerine ve devasa cüssene bakıp acımayla karışık bir küfür savurdu.\n\n[İhtiyar Ferhat]; \"Çabuk geç içeri be adam! Kapıyı kapa, soğuk içeri doluyor. Tanrı kahretsin, o sürtükler her geçen gün daha da gaddarlaşıyor.\"\n\nTamirhanenin içine adımını atar atmaz arkadaki paslı kapıyı kapatıyorsun. Varilden bozma sobanın etrafına yayılan sıcaklık, donmak üzere olan bedenine adeta bir darbe gibi çarpıyor. Ayaklarındaki derin kesiklerin sızısı sıcakla birlikte daha da şiddetleniyor, ama en azından donarak ölmekten kurtuluyorsun.\n\nFerhat, kenardaki yağlı tezgahın altından kirli ama kuru eski bir yün battaniye ile ayağına sarman için birkaç kaba bez parçası çıkarıp sana doğru fırlatıyor.\n\n[İhtiyar Ferhat]; \"Şunu üstüne sar. Ayaklarını da o bezlerle bağla yoksa mikrop kapıp çürürsün. Adım Ferhat. Bir zamanlar bu sanayide ustaydım, şimdi ise bu hurdalıkta leş yiyici kızların atıklarını topluyorum. Seni bu hale getirenler kimdi? Varis'in çetesi mi?\"",
+      "arbiter_verdict": "Kaan'ın dürüst ve tehditsiz tavrı İhtiyar Ferhat'ın şüphesini dağıttı. Soğuğa maruz kalmanın son aşaması olarak deterministik motor kuralı gereği hipotermi hasarı işlendi, ancak ateşin yanına geçilmesiyle hipotermi riski durduruldu.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": -5,
+      "mental_delta": -10,
+      "timestamp": "10:30:42"
+    },
+    {
+      "turn": 5,
+      "action": "evet kım onalr nası bukadar merhametsızler",
+      "story": "İhtiyar Ferhat, teneke çaydanlıktan dumanı tüten sıcak ıhlamuru iki yıpranmış cam bardağa doldururken derin bir iç çekti. Sobadaki odunların çıtırtısı mekandaki kasvetli havayı bir nebze kırıyordu.\n\n[İhtiyar Ferhat]; \"Merhamet mi? Ah be evlat... O kelime köprücük kemiklerinde o lanet 'Ağ' organı belirdiği gün tarih oldu. Bir insanın parmaklarının ucunda bir kentin elektriğini yakacak güç olunca, sıradan bir erkek onun gözünde basılacak bir böcekten farksız kalıyor. Varis ve çetesi Smyrna Limanı'nın kaçakçılarından beslenen acımasız kan emicilerdir. Avlarını soymakla kalmaz, zevk için sakat bırakırlar. Yine ucuz kurtulmuşsun.\"\n\nFerhat sıcak bardağı sana doğru uzattı. Sobanın sıcaklığı kemiklerini ısıttıkça titremen geçiyor, ama ayağındaki kesikler hala sızlıyor.\n\n[İhtiyar Ferhat]; \"Ayağındaki o kesikleri temizlemezsen çürüme başlar. O bezleri kullan. Şimdi söyle bakalım yeraltı dövüşçüsü... Burada sonsuza kadar saklanamazsın. Neyin var, neyin yok aldılar. Bundan sonra ne yapmayı düşünüyorsun? Intikam mı, yoksa şehirden kaçmak mı?\"",
+      "arbiter_verdict": "Oyuncunun sorusu evrenin sosyolojik yapısına ve derin lore bilgisine temas ediyor. Güvenli, sıcak bir ortamda bulunması ve Ferhat ile sohbet etmesi zihinsel direncini hafifçe toparladı, hipotermi etkisi sona erdi.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 5,
+      "mental_delta": 10,
+      "timestamp": "10:31:29"
+    },
+    {
+      "turn": 6,
+      "action": "*ayagımdakı kesıklerı temızlerken konusurum* hayatta kalmak",
+      "story": "Bez parçalarını yırtıp kanayan ayak tabanlarına sıkıca sarıyorsun. Kumaşın ham dokusu açık yaralarına bastıkça dişlerini sıkıyorsun ama yelken bezi gibi sağlam kumaş kanamayı durduruyor. Ihlamurdan bir yudum alıp dumanı tüten bardağı sobaya yakın bir yere bırakıyorsun.\n\n[İhtiyar Ferhat]; \"'Hayatta kalmak' mı? En akıllıca cevap bu evlat. Çoğu genç intikam hırsıyla gözü kör olup çıplak elle elektriğe koşar ve beş saniyede küle döner. Ama yalıtkanın olmadan, sokakta bir hiçsin. İlk devriye kadın milisi seni çıplak ayakla görse şüphelenir, bir kıvılcımla kalbini durdurur.\"\n\nFerhat ayağa kalkıp tamirhanenin karanlık kuytularındaki eski bir ahşap sandığı karıştırmaya başlıyor. İçinden tozlu, ağır, kauçuk tabanları kısmen aşınmış ama hala sağlam görünen bir çift eski sanayi botu çıkarıp önüne atıyor.\n\n[İhtiyar Ferhat]; \"Bunlar senin profesyonel yalıtkan botların kadar iyi değil ama en azından ıslak zeminde kaçak akımdan seni korur ve çakılların ayaklarını kesmesini engeller. Sana bunları veririm Kaan, ama karşılığında bana bir söz vereceksin: Hurdalığın arka tarafındaki trafoda takılan kaçakçı 'Tork' lakaplı adama bu eski motor parçalarını götürmeme yardım edeceksin. Karşılığında bize yiyecek ve temiz su verecek.\"",
+      "arbiter_verdict": "Oyuncunun bez sargıları kullanarak ayaklarındaki kesikleri temizlemesi ve sarması gerçekçi bir bakım eylemidir. 'Kaba Bez Sargılar' tüketilmiş, kesik ayakların enfeksiyon riski düşürülmüştür. 'Hayatta kalmak' cevabı Ferhat'ın pragmatik zihniyetine uygundur.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 5,
+      "mental_delta": 5,
+      "timestamp": "10:32:32"
+    },
+    {
+      "turn": 7,
+      "action": "\"hadı yapalım",
+      "story": "Ayağındaki bandajların üzerine eski sanayi botlarını geçirip bağcıklarını sıkıca bağlıyorsun. Kauçuk tabanlar ayağını tam kavrayarak yaralı tabanlarını çamurdan ve keskin nesnelerden koruyor.\n\nİhtiyar Ferhat tezgahın arkasındaki ağır, yağlı bir çuvalı sürükleyerek getiriyor. İçinde eski jeneratör sargıları ve ağır bakır motor parçaları var. Çuvalı sırtına yükleniyorsun; ezik kaburgana binen yük nefesini bir anlığına kesse de pankras antrenmanlarının verdiği yüksek kas gücü sayesinde ağırlığı kaldırıyorsun.\n\nFerhat ile birlikte tamirhanenin arka kapısından çıkıp karanlık, çamurlu patikadan ilerliyorsunuz. Yağmur hafiflemiş olsa da etraftaki demir yığınlarından süzülen sular zifiri karanlıkta şıpıldıyor. Yüz metre kadar ileride, paslı sac levhalarla çevrilmiş, çatısı çökmüş eski bir trafo binasına ulaşıyorsunuz.\n\nKapıda elindeki spot lambasını yüzünüze doğrultarak sizi durduran yüksek voltajlı eldivenler takmış bir kadın muhafız beliriyor. Yanında ise üzeri kürk kaplı deri ceketli, geniş omuzlu bir adam duruyor.\n\n[Nöbetçi Selen]; \"Durun! Işığa bakmayın, ellerinizi görebileceğim yerde tutun!\"\n\n[Kaçakçı Tork]; \"Sakin ol Selen, gelen ihtiyar Ferhat... Ama arkasındaki bu devasa ayı da kim? Ferhat, yeraltı dövüşçüsü kılıklı bu adamı buraya neden getirdin? Mallar nerede?\"",
+      "arbiter_verdict": "Oyuncu teklifi kabul etti. Eski sanayi botlarını giyerek ıslak ve çakıllı zeminde yürüme imkanı kazandı. Ağır motor parçalarını yüklenip harekete geçmesi kaburgasındaki ezilmeye hafif yük bindirdi.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": -5,
+      "mental_delta": 0,
+      "timestamp": "10:33:56"
+    },
+    {
+      "turn": 8,
+      "action": "*ferhatın konusmasını beklıyorum*",
+      "story": "Sessiz kalarak gözlerini spot ışığından hafifçe kaçırıyor ve çuvalın ağırlığını omuzlarında sabit tutuyorsun. İhtiyar Ferhat hemen öne doğru bir adım atıp ellerini görünür şekilde kaldırıyor.\n\n[İhtiyar Ferhat]; \"Sakin olun Tork, sakin ol Selen! Bu Kaan. Varis'in itleri tarafından soyulmuş, yeraltı ringlerinden kaçan bir dövüşçü. Zaten üstü başı perişan haldeydi, bana sadece bu ağır çuvalı taşımakta yardım etti. Mallar burada, tam anlaştığımız gibi jeneratör sargıları ve döküm parçalar.\"\n\nNöbetçi Selen gözlerini senden ayırmadan elindeki yalıtkan eldivenli parmaklarını gevşetiyor. Parmak uçlarında az önce beliren mavi elektrik çıtırtısı yavaşça sönümleniyor. Kaçakçı Tork ise sana doğru yaklaşıp omzundaki çuvala bakıyor.\n\n[Kaçakçı Tork]; \"Demek Varis'in gazabına uğradın ha? O orospunun elinden canlı kurtulan az olur... Pekala Ferhat, mallar temiz görünüyor. Söz verdiğim gibi iki koli konserve ve 5 litre temiz su sizin.\"\n\nTork çuvalı indirmene işaret ederken gözlerinin içine bakıyor.\n\n[Kaçakçı Tork]; \"Boyun bosun ve fiziğin yerinde dövüşçü. Varis'in mekanına geri dönmek veya bu şehirden kaçmak istiyorsan silah ve teçhizata ihtiyacın olacak. Eğer bana bir iyilik daha yaparsan sana eski bir çelik bıçak ve bir çift yalıtkan kauçuk eldiven veririm. Ne dersin?\"",
+      "arbiter_verdict": "Oyuncunun temkinli davranıp tecrübeli yerel rehber olan İhtiyar Ferhat'ın konuşmasına izin vermesi gerçekçi ve stratejik açıdan doğru bir karardır. Tehdit oluşturmayan duruş gerilimi düşürdü.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 0,
+      "mental_delta": 5,
+      "timestamp": "10:35:28"
+    },
+    {
+      "turn": 9,
+      "action": "\"gerek yok ıntıkam degıl yasamak ıstıyorum ılk sılahlı adamlar ölür\"",
+      "story": "Omuzundaki ağır çuvalı yere, Tork'un ayaklarının dibine bırakıyorsun. Bıraktığın an kaburgandaki baskı hafifliyor. Sözlerin trafo binasının soğuk duvarlarında yankılanıyor.\n\n[Kaçakçı Tork]; \"Ha! Haklısın dövüşçü... Gurur ve intikam bu devirde adamı çabuk mezara sokar. 'İlk silahlı adamlar ölür' he? Doğru laf. Çatışmada ilk kurşunu veya ilk şoku yiyenler hep o kahramanlık taslayanlar olur.\"\n\nTork arkasındaki tahta sandıktan iki büyük kutu konserve ile plastik bir bidon temiz su çıkarıp Ferhat'a uzatıyor. Ferhat erzakları alırken sana teşekkür edercesine bakıyor.\n\n[İhtiyar Ferhat]; \"Sağ olasın Tork. Haydi Kaan, erzaklarımızı aldık. Tamirhaneye dönüp karınlarımızı doyuralım.\"\n\nTam arkadaki çamurlu patikaya doğru adım atacakken, sanayi bölgesinin ana yolundan gelen ağır motor sesleri ve mekanik siren cırtlaması geceyi bölüyor. İki adet yüksek şasili milis devriye aracı tamirhanenizin olduğu yöne doğru ışıklarını saçarak ilerliyor!\n\n[Nöbetçi Selen]; \"Lanet olsun! Elektrik Milisleri 'Ağ Muhafızları' devriyede! Ferhat, senin dükkana doğru gidiyorlar!\"",
+      "arbiter_verdict": "Oyuncu teklifi reddetti ve çuvalı teslim etti. Ağır çuval envanterden çıkarıldı. Tork, oyuncunun pragmatik 'yaşamak istiyorum, ilk silahlı adamlar ölür' lafını makul buldu ve erzak teslimatını yaptı.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 0,
+      "mental_delta": -5,
+      "timestamp": "10:36:58"
+    },
+    {
+      "turn": 10,
+      "action": "\"napıcaz!\"",
+      "story": "Aniden yükselen siren sesleri ve karanlığı yaran parlak tepe lambaları yaklaşırken panik dalgası havayı kaplıyor. Tork hemen trafo binasının ağır sac kapısını aralayıp içeri süzülmeye çalışıyor.\n\n[Kaçakçı Tork]; \"İçeri girin çabuk! Sokağın ortasında dikilmeyin! Selen, spot ışığını söndür!\"\n\n[İhtiyar Ferhat]; \"Kaan, sakın dışarıda kalma! Ağ Muhafızları sokağa çıkma yasağından sonra yakaladıkları her erkeği ya köle kamplarına satarlar ya da 'Ağ' denemelerinde voltaj canlı hedefi yaparlar!\"\n\nİhtiyar Ferhat alelacele trafanın ağır demir kapısından içeri süzülürken, caddeden gelen araçların projeksiyon ışıkları tam bulunduğunuz sokağın girişini taramaya başlıyor. Birkaç saniye içinde ışık hizanıza ulaşacak. Trafo binasının karanlığına sığınmak veya hurda yığınlarının arasına saklanmak arasında tek bir anın var.",
+      "arbiter_verdict": "Oyuncu durumu anlamak ve anlık tepki vermek için niyet belitti. Tehlike kapıda. Yakın mesafede şok tabancalı veya doğrudan 'Ağ' gücüne sahip milislere karşı açık alanda durmak ölümdür.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 0,
+      "mental_delta": -10,
+      "timestamp": "10:37:49"
+    },
+    {
+      "turn": 11,
+      "action": "*trafo bınasının karanlıgına saklanıyorum*",
+      "story": "Hızlı bir hamleyle ağır sac kapının arasından içeri süzülüyorsun. İçerisi yoğun bir ozon, yanık kablo ve nem kokusuyla kaplı. Tork kapıyı hafifçe aralık bırakarak dışarıyı izlemeye devam ediyor, Selen ise nefesini tutup gölgelerin arasına sinecek şekilde pusuyor.\n\nProjeksiyon ışığı kapı aralığından içeri kırılıp tozu ve dumanı aydınlatarak geçip gidiyor. Dışarıdaki ağır motor sesleri tam trafo binasının önünde duruyor. Ağır askeri bot sesleri ve telsiz cızırtıları duyuluyor.\n\n[Devriye Komutanı Varisya]; \"Taramayı derinleştirin. Bu sektörde illegal parça değişimi ve ruhsatsız erkek iş gücü saptandı. Sokaklardaki her hangara bakın. Şüpheli bir şey görürseniz doğrudan yüksek akım serbest!\"\n\n[Devriye Er Melisa]; \"Anlaşıldı komutanım! Trafo binasının kapısı aralık duruyor, oraya bakıyorum.\"\n\nBot sesleri tam bulunduğunuz kapıya doğru yaklaşıyor. Tork belindeki paslı tabancanın kabzasına dokunuyor ama eli titriyor. Yanındaki Selen'in ellerinden hafif bir elektrik cızırtısı yayılmaya başlıyor—eğer Selen panikleyip ateşlerse trafo binasındaki metal tozları ve nem akımı iletebilir!",
+      "arbiter_verdict": "Oyuncu trafo binasının karanlığına sığınarak tespit edilmekten kaçındı. Mantıklı ve gerçekçi bir eylem. Trafonun içindeki yüksek voltajlı paslı jeneratör kalıntıları ve nemli zemin dikkate alındı.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 0,
+      "mental_delta": -5,
+      "timestamp": "10:40:20"
+    },
+    {
+      "turn": 12,
+      "action": "*onları kurtarmak ıcın kendım once cıkıyor saskın ve kaybolmus ıfadesı takınıp er melisanın ucunda yarı baygın yere dusuyorum*",
+      "story": "Karanlıktan aniden fırlayıp sendeleyerek kapıdan dışarı çıkıyorsun. Rolünü oynayıp Er Melisa'nın tam önünde yere yığılmaya çalışıyorsun. Ancak karanlıktan üzerine doğru düşen 1.92'lik kaslı bir gölge gören eğitimli milis neferinin refleksi acımasız oluyor!\n\n[Devriye Er Melisa]; \"Geri bas! Pusu!\"\n\nMelisa korku ve panikle çığlık atarken çıplak elini öne doğru savuruyor. Mavi-beyaz renkte devasa bir elektrik arkı geceyi yararak doğrudan göğsüne ve omzuna patlıyor! Yüksek voltajlı akım kaslarını anında kilitliyor, ciğerlerindeki tüm havayı çığlık atmana bile izin vermeden dışarı fırlatıyor. Şokun şiddetiyle bilincin kararma noktasına gelirken yere çakılıyorsun. Vücudun acı içinde kasılırken ağzından köpüklü tükürük dökülüyor.\n\nDevriye Komutanı Varisya bot sesleriyle hızla yanınıza koşuyor. Ağır askeri botunun tabanıyla sırtına bastırıp seni yere çiviliyor.\n\n[Devriye Komutanı Varisya]; \"Dur Melisa, kızartma onu! Şun boya, kaslara bak... Bu sıradan bir hamamböceği değil. Yeraltı ringlerindeki kaçaklardan biri olmalı. Ağzını kelepçeleyin, merkeze götürüyoruz. İçeride başka kimse var mı bak!\"\n\n[Devriye Er Melisa]; \"Tamam komutanım! Kalbi hala atıyor, akımı düşük tuttum.\"\n\nNöbetçi Melisa doğrularak trafo binasının içine doğru fenerini tutmaya hazırlanıyor!",
+      "arbiter_verdict": "Oyuncu arkadaşlarını korumak için kendini feda ederek saklandığı yerden çıktı. Ancak 1.92m boyunda, atletik yapılı bir erkeğin devriye muhafızının üzerine doğru sendeleyerek düşmesi, katı katliam/savunma eğitimi almış muhafız tarafından anında 'tehdit' olarak algılandı. Senaryo zırhı işletilmedi; muhafız refleks olarak yüksek voltajlı akım ile tepki verdi.",
+      "rule_warnings": "Katı Gerçekçi Mod: Kadın muhafızların refleks akımı ölümcül veya ağır sakatlayıcıdır. Birkaç metre mesafede şok atımı kaçınılmazdır.",
+      "health_delta": -25,
+      "mental_delta": -20,
+      "timestamp": "10:41:59"
+    },
+    {
+      "turn": 13,
+      "action": "*yarı baygınım bırsey yapamıyorum*",
+      "story": "Bilincin gidip gelirken kaslarının kontrolünü tamamen kaybediyorsun. Ağzından süzülen salya çamurla karışırken devriye er Melisa trafo binasının içine el feneriyle göz atıyor. Ancak içerideki karanlık ve derinlik, Ferhat ve diğerlerinin arka acil çıkış kapağından kaçması için yeterli zamanı sağlıyor. İçeride kimseyi göremiyor.\n\n[Devriye Er Melisa]; \"Boş komutanım! Sadece çöp ve eski trafo hurdaları var. Bu tip muhtemelen devriyeden kaçarken buraya saklanmaya çalışıyordu.\"\n\n[Devriye Komutanı Varisya]; \"Tüh... Neyse, bu iri kıyım av bize fazlasıyla yeter. Yeraltı dövüşçülerinin ödülü yüksek. Plastik kelepçeleri takın, kamyonetin kasasına fırlatın!\"\n\nSırtına vurulan sert bir bot darbesiyle doğrultuluyorsun. Bileklerin arkadan kalın plastik kelepçelerle sıkıca bağlanıyor. Işıkları söndürülmüş askeri kamyonetin arkasındaki demir ızgaralı kasaya küfürler ve tekmeler eşliğinde fırlatılıyorsun. Araç gürültüyle çalışıp hareket ediyor.\n\nYarım saat süren sarsıntılı bir yolculuktan sonra motor duruyor. Ağır demir kapıların açılma sesi ve spot ışıklarının kör edici parıltısı yüzüne vuruyor. Burası Smyrna Milis Merkez Sıkıyönetim Kampı.\n\n[Muhafız Çavuşu Karen]; \"Varisya! Yine ne tür çöp getirdin merkeze?\"\n\n[Devriye Komutanı Varisya]; \"Sokaktan topladık Karen. Ring kaçaklarına benziyor. Hücreye atın, sabah Hücre Bölgesi Yöneticisi Iliana sorgulayacak.\"\n\nKamyonetin kasasından sürüklenerek çıkarılıyorsun. Yalıtımsız, soğuk ve taş bir hücreye atılıyorsun. Demir kapı üzerini büyük bir gürültüyle kapanıyor.",
+      "arbiter_verdict": "Oyuncu aldığı yüksek voltajlı şokun fizyolojik etkisiyle pasif kaldı (kas spazmı ve şok). Hakem olarak bu durumu tıp ve fizik kurallarına göre çalıştırıyorum: Varisya oyuncuyu kelepçeleyip araca atıyor. Trafo binasındaki Ferhat, Tork ve Selen ise oyuncunun kendini feda etmesi sayesinde fark edilmeden binanın arka havalandırmasından kaçmayı başarıyor.",
+      "rule_warnings": "Kurallar tam işletildi. Karakter kelepçelendi ve esir alındı.",
+      "health_delta": 0,
+      "mental_delta": -5,
+      "timestamp": "10:43:08"
+    },
+    {
+      "turn": 14,
+      "action": "*sabaha kadar uyuyorum",
+      "story": "Soğuk taş zeminde, bileklerindeki plastik kelepçelerin acısına ve kaburgandındaki sızıya rağmen vücudunun tükettiği son enerjiyle derin, huzursuz bir uykuya daldın. Rüyalarında bile teninde dolaşan yüksek voltajın cızırtısını hissettin. Dinlenmek kaslarındaki ağır felç hissini bir nebze olsun hafifletti.\n\nSabahın ilk ışıkları hücrenin yüksekteki demir parmaklıklı küçük penceresinden içeri sızarken, ağır demir kapının kilidi şakırtıyla açılıyor. İçeri iki silahlı milis muhafızı ve şık, deri askeri üniforması içinde soğuk bakışlı bir kadın giriyor.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Kalk ayağa köle! Demek Varisya'nın sokakta yakaladığı 'büyük av' sensin...\"\n\nIliana elindeki ağır, kauçuk kaplı kırbacın ucuyla çeneni yukarı kaldırıyor. Yüzündeki dövüş izlerini ve yapılı gövdene bakarak alaycı bir şekilde gülümsüyor.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Tam da tahmin ettiğim gibi. Yeraltı pankras dövüşçüsü Kaan Vural... Senin gibi kaçak devlerin dışarıda özgürce dolaşması rejimimiz için bir hakaretti. Ancak seni madenlere satmayacağım. İsmine ve kaslarına arena gösterilerinde ihtiyacımız var.\"\n\n[Zindan Muhafızı Leyla]; \"Efendim, kelepçelerini çözüp arenaya sevk nakil aracına mı alalım?\"\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Evet. Ama önce karnına ve bacaklarına 'Ağ' bastırın, direnme isteği kalsın mı bir görün bakalım.\"",
+      "arbiter_verdict": "Oyuncu soğuk zindan hücresinde dinlenmeyi ve uyumayı tercih etti. Vücut elektrik şokunun yarattığı laktik asit birikimini ve kas spazmını dinlenerek bir miktar attı. Sağlık ve zihin bir miktar toplar. Ancak sabah olmuş, sorgu vakti gelmiştir.",
+      "rule_warnings": "Kurallar tam işletildi.",
+      "health_delta": 15,
+      "mental_delta": 10,
+      "timestamp": "10:44:04"
+    },
+    {
+      "turn": 15,
+      "action": "\"ıllıana senmısın? unuttunmu benı liseden...\"",
+      "story": "Iliana elindeki kauçuk kırbacı indirdi ve adımını durdurdu. Işığın altında yüzüne daha dikkatli bakmak için yaklaştı. Yüzündeki dövüş izlerinin ve kirin altındaki hatları tanıdığında dudaklarında soğuk, kibirli ve eğlenen bir tebessüm belirdi.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Kaan? Kaan Vural... Okulun popüler, gururlu sporcu çocuğu. Kızların arkandan bakmaya bile çekindiği o harika oğlan... Ne kadar tatlı bir tesadüf.\"\n\nIliana alaycı bir kahkaha atarak tam önüne çömeldi. Çıplak parmağının ucunu cızırdayan hafif bir elektrik akımıyla yanağına dokundurdu. Cildinde cızırdayan ince bir yanık acısı ve kasılma dalgası yayıldı.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"O eski günler geride kaldı Kaan. O zamanlar üstün olduğunu sanıyordun. Şimdi ise bileklerinde kelepçeyle, hücremin soğuk taşlarında önümde diz çöküyorsun. Dünya ait olduğu düzene girdi. Eski günlerin hatırına sana bir ayrıcalık tanıyacağım: Seni madenlerde çürütmeyeceğim, arenada dövüşüp adımı duyuracaksın. Ama bir daha sakın bana o günlerdeki gibi hitap etme!\"\n\n[Zindan Muhafızı Leyla]; \"Efendim, nakil aracı kapıda bekliyor. Arenaya sevk protokolü hazır.\"\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Kaldırın şu lise kahramanını. Bakalım ringdeki elektrikli ağlara karşı da lisedeki kadar hızlı mı!\"\n\nMuhafız Leyla seni kolundan sertçe çekerek ayağa dikti ve hücreden dışarı, kafesli nakil aracına doğru sürüklemeye başladı.",
+      "arbiter_verdict": "Oyuncu geçmiş ilişkileri kullanarak bir diyalog ve manipülasyon hamlesi denedi. Evren kuralları gereği, 'Uyanış' sonrası matriarkal rejimde geçmişteki erkek-kadın hiyerarşisinin tam tersine dönmesi Iliana için bir merhamet sebebi değil, aksine ego ve sadizm tatmin aracıdır. Hamle fiziksel olarak başarılı ancak psikolojik olarak aleyhine sonuçlandı.",
+      "rule_warnings": "Kurallar tam işletildi. Senaryo zırhı verilmedi; geçmiş bağlar karakteri kurtarmadı, güç dengesini vurguladı.",
+      "health_delta": -5,
+      "mental_delta": -10,
+      "timestamp": "10:45:33"
+    },
+    {
+      "turn": 16,
+      "action": "\"ıllıana senın hıc merhametın yokmu 4 yıl bırlıkteydık sana kötü bir tavrım olmadı\"",
+      "story": "Sözlerin dar koridorda çınlarken Muhafız Leyla seni kapıya doğru itmeye devam ediyordu. Ancak Iliana aniden elini kaldırarak nakil ekibini durdurdu. Bakışları yumuşamadı; aksine gözlerinde bambaşka, tehlikeli bir mülkiyet arzusu belirdi.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Dur Leyla! Bırak onu...\"\n\nIliana adımlarını sana doğru attı. Parmaklarını çenene koyup yüzünü kendine doğru kaldırdı. Sesi alçak ama emrediciydi.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Dört yıl... Doğru. Bana hiçbir zaman saygısızlık etmedin Kaan. Hatta o zamanlar diğerlerinin arasında bana nazik olan tek erkek sendin. Seni o arenadaki vahşi yaratıkların parçalamasına izin vermek, yeteneklerini ve o cüsseni ziyan etmek olur.\"\n\nIliana yüzünde kibirli ve kırılması imkansız bir gülümsemeyle arkasındaki muhafızlara döndü.\n\n[Hücre Bölgesi Yöneticisi Iliana]; \"Sevk belgelerini iptal edin. Kaan artık arenaya gitmiyor. Onu doğrudan kendi özel mülküme, kişisel kölem olarak alıyorum. Benim korumam, benim kapımdaki hizmetkarım olacak.\"\n\n[Zindan Muhafızı Leyla]; \"Anlaşıldı efendim! Sevk iptal ediliyor. Tutsak Kaan Vural, Yöneticinin kişisel mülkü olarak kaydedildi.\"\n\nLeyla bileklerindeki sıkı plastik kelepçeleri kesip yerine ağır, şok mekanizmalı özel bir deri tasma taktı. Artık arenasının kanlı zeminine değil, Iliana'nın makam katına doğru götürülüyorsun.",
+      "arbiter_verdict": "GM Müdahalesi işletildi. Iliana, oyuncunun geçmişteki tutumunu ve 4 yıllık beraberliğini hatırlatması üzerine kararını değiştirdi. Onu arenadaki ölüme göndermek yerine ego ve prestij göstergesi olarak 'kişisel kölesi' yapmaya ikna oldu.",
+      "rule_warnings": "GM özel emri gereği NPC tutumu doğrudan değiştirildi ve hikayeye entegre edildi.",
+      "health_delta": 0,
+      "mental_delta": 5,
+      "timestamp": "10:47:21"
+    }
+  ],
+  "last_suggested_actions": [],
+  "last_arbiter_verdict": "GM Müdahalesi işletildi. Iliana, oyuncunun geçmişteki tutumunu ve 4 yıllık beraberliğini hatırlatması üzerine kararını değiştirdi. Onu arenadaki ölüme göndermek yerine ego ve prestij göstergesi olarak 'kişisel kölesi' yapmaya ikna oldu.",
+  "last_rule_warnings": "GM özel emri gereği NPC tutumu doğrudan değiştirildi ve hikayeye entegre edildi.",
+  "saved_at": "2026-09-16 10:48:36"
+}

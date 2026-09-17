@@ -1,0 +1,28 @@
+{
+  "id": "cyberpunk_noir",
+  "title": "Neo-İstanbul 2099: Asit Yağmuru (Sert Siberpunk)",
+  "character": {
+    "name": "Aylin 'Gölge' Vural",
+    "age": "31",
+    "role": "Yasadışı Veri Kaçakçısı & Eski Siber Şube Ajanı",
+    "skills": ["Hızlı ICE Kırma", "Susturuculu Akıllı Tabanca Kullanımı", "Kentsel Sızma ve Kamufle", "Elektronik Devre Bypass"],
+    "flaws": ["Yasadışı taktırdığı optik sibernetiği aşırı ısınma ve donma yapıyor", "Büyük bir mega şirketin kara listesinde", "Kronik uykusuzluk ve sinir yorgunluğu"],
+    "backstory": "Mega-şirket 'Orion Tech'in gizli insan deneylerini ifşa etmeye çalışırken kumpasa uğradı. Polislikten atıldı ve Kadıköy'ün yeraltı neon sokaklarında serbest avcı olarak yaşamaya başladı.",
+    "goal": "Orion Tech'in sunucularından çaldığı şifreli hafıza çipini alıcıya ulaştırıp şehirden kaçmak.",
+    "inventory": ["Susturuculu 9mm Mil-Spec tabanca (8 mermi)", "Kişisel siber güverte (Cyberdeck Mk IV)", "Şifreli hafıza çipi", "Gece görüşlü hasarlı siber optik göz", "Sentetik ağrı kesici (2 doz)"]
+  },
+  "universe": {
+    "name": "Neo-İstanbul (Boğazaltı ve Dikey Megakent)",
+    "history": "İklim kriziyle yükselen denizler sonrası şehir dikey kuleler ve sualtı tünelleriyle yeniden inşa edildi. Hükümetler sembolik hale geldi; her mahalleyi özel güvenlik ordusu olan mega-şirketler yönetiyor.",
+    "rules": "1. Şehrin her yerinde şirket kameraları ve drone tarayıcıları vardır; ağa açık her cihaz saniyeler içinde izlenebilir.\n2. Mermiler et ve kemiğe karşı affetmezdir; sibernetik gövde bile ağır kalibre karşısında parçalanır.\n3. Siber alanda aşırı kalmak nöronları yakar (Bio-feedback ölümü).\n4. Asit yağmuru çıplak deride kimyasal yanıklara neden olur.",
+    "social": "Sokak çeteleri, şirket paralı askerleri ve yozlaşmış teknoloji simsarları. Paran yoksa organların yedek parça olarak haczedilir.",
+    "damage_reality": "Plot armor yok. Siber implantlar hasar görürse kısa devre yapar ve vücuda şok dalgası verir. Yaralanan kişi tıbbi stimülan veya profesyonel sokak doktoru olmadan ayağa kalkamaz.",
+    "dogmas": "Fizik, elektrik ve sibernetik sınırları katıdır. Sihir veya mucize yoktur; sadece veri, kod, metal ve barut vardır."
+  },
+  "mode_data": {
+    "mode": "realistic",
+    "strictness": "challenging",
+    "model": "gemini-2.5-flash",
+    "prologue_hook": "Boğaz Köprüsü'nün altındaki neon ışıklı dar bir ara sokakta, yağmurdan sığınmış durumdasın. Şirket güvenlik araçlarının kırmızı-mavi sirenleri ıslak asfaltı aydınlatıyor ve gökyüzünde bir arama dronunun pervaneleri vızıldıyor..."
+  }
+}

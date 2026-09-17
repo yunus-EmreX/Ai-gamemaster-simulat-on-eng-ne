@@ -1,0 +1,41 @@
+{
+  "id": "god_sim",
+  "title": "🌌 Tanrı Simülasyonu: Evrenin Hakimi & Panteonun Efendisi",
+  "character": {
+    "name": "Aethelgard (Kozmik Mimar ve Zamanın Efendisi)",
+    "age": "Zamanın Başlangıcından Beri Sonsuz Varlık",
+    "role": "Yüce Yaratıcı Tanrı",
+    "skills": [
+      "Kozmik Yaratılış",
+      "Doğa Olaylarına Hükmetme",
+      "Zaman ve Mekanı Bükme",
+      "Duaları Duyma ve Tecelli",
+      "İlahi Gazap ve Mucize"
+    ],
+    "flaws": [
+      "Fanilerin küçük acılarına karşı kayıtsız kalma riski",
+      "İlahi kibrin yıkıcı öfkesi"
+    ],
+    "backstory": "Kaosun ilk kıvılcımından doğdu. Yıldızları elleriyle tutuşturdu, denizleri vadilere akıttı ve ölümlülerin kalbine ilk ateşi yerleştirdi.",
+    "goal": "Ölümlülerin medeniyetini yüceltmek veya gazabıyla layık olanı sınamak",
+    "inventory": [
+      "Kozmik Yaratılış Asası",
+      "Yıldırım Tacı",
+      "Fani Ruhlar Aynası"
+    ]
+  },
+  "universe": {
+    "name": "Aethelgard Diyarları (Kozmik Yaratılış Alemi)",
+    "history": "Yüce Tanrı nın gölgesinde ilk kabileler kuruldu. Krallıklar göğe tapınaklar yükseltiyor, kuraklık ve canavarlarla sınanıyor.",
+    "social": "İlahın işaretlerine, rahiplerin kehanetlerine ve gökten inen mucizelere muhtaç teokratik krallıklar ve göçebe kabileler.",
+    "damage_reality": "Ölümlüler hastalanır, yaşlanır ve ölür; ancak Yüce Tanrı zamanın ve ölümün ötesindedir.",
+    "rules": "1. Tanrı nın her sözü ilahi ferman ve yasadır.\n2. Doğa kanunları Tanrı nın iradesiyle anında bükülebilir.\n3. Ölümlülerin duaları ilahi makama ulaşır; kabul edilirse bereket, gazapla yanıtlanırsa felaket doğar.\n4. İman ve korku dengesi medeniyetin kaderini belirler.",
+    "dogmas": "Tanrı nın fermanı mutlak kanundur. Kabul edilen dualar bereket, gazaplar ise yıkım getirir."
+  },
+  "mode_data": {
+    "mode": "god_sim",
+    "strictness": "balanced",
+    "model": "gemini-2.5-flash",
+    "prologue_hook": "Göksel tahtından yeryüzüne bakıyorsun. Aşağıda kuraklıkla boğuşan Ogan kabilesi ve karanlık mağaralardaki canavar saldırısına uğrayan bir dağ köyü senin adını haykırarak kurbanlar adıyor..."
+  }
+}
