@@ -1,4 +1,4 @@
-# Chronicles of Gemini
+# Chronicles of Aİ
 
 Google Gemini API ve Python tabanlı kural motoru ile çalışan, serbest metin tabanlı RPG ve anlatı simülasyonu motoru.
 
